@@ -35,7 +35,7 @@ const showWeather = (data) => {
     }
   content.innerHTML =  `
   <div class="content">
-    <img id="imgIcon" src="https://api.openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">
+    <img id="imgIcon" src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">
     <h2 id="city">${data.name}</h2>
     </div>
     <div class="content2">
